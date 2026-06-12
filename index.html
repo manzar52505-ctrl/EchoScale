@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>EchoScale · Intelligent acoustic insights</title>
+    <!-- Preconnect to Google Fonts for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Poppins + Inter hybrid: clean modern sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 (free icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation / Glassmorphic header -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-waveform logo-icon"></i>
+                <span>EchoScale</span>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#solutions" class="nav-link">Solutions</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="#contact" class="btn-outline-light">Get beta</a>
+                <div class="menu-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="hero-badge">
+                    <i class="fas fa-microphone-alt"></i> AI-powered acoustic intelligence
+                </div>
+                <h1 class="hero-title">
+                    Turn sound into <span class="gradient-text">scalable insight</span>
+                </h1>
+                <p class="hero-desc">
+                    EchoScale transforms raw audio into actionable data — from environmental monitoring to industrial diagnostics. 
+                    Real‑time processing, edge‑ready analytics, and deep acoustic learning.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">
+                        Launch demo <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#features" class="btn-outline">
+                        Explore platform <i class="fas fa-play-circle"></i>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">99.7%</span>
+                        <span class="stat-label">pattern accuracy</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">< 50ms</span>
+                        <span class="stat-label">real‑time latency</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">edge monitoring</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left">
+                <div class="sound-sphere">
+                    <div class="pulse-ring"></div>
+                    <div class="pulse-ring delay-1"></div>
+                    <div class="pulse-ring delay-2"></div>
+                    <div class="core-wave">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                </div>
+                <div class="waveform-visual">
+                    <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+                    <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+                    <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+                    <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave-bottom">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,64L80,58.7C160,53,320,43,480,48C640,53,800,75,960,80C1120,85,1280,75,1360,69.3L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">core engine</span>
+                <h2>Intelligent acoustic <br>framework</h2>
+                <p>Designed for scale, precision, and seamless integration</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                    <h3>Edge & Cloud fusion</h3>
+                    <p>Hybrid inference that adapts to bandwidth constraints — local pre‑processing with cloud orchestration.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Deep echo profiling</h3>
+                    <p>Proprietary neural networks detect subtle acoustic signatures, from machinery wear to bioacoustics.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-chart-simple"></i></div>
+                    <h3>Live dashboards</h3>
+                    <p>Visualize frequency domains, event streams, and anomaly scoring with millisecond resolution.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Enterprise grade</h3>
+                    <p>End‑to‑end encryption, role‑based access, and compliance with ISO 27001 / SOC2.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions / Use cases section -->
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag dark-bg-tag">use cases</span>
+                <h2>Where EchoScale delivers <br>transformative value</h2>
+                <p>From smart cities to heavy industry — sound never lies.</p>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-item">
+                    <div class="solution-img"><i class="fas fa-factory"></i></div>
+                    <h4>Predictive maintenance</h4>
+                    <p>Detect bearing failures, cavitation, and misalignment weeks in advance.</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-img"><i class="fas fa-tree"></i></div>
+                    <h4>Environmental monitoring</h4>
+                    <p>Track wildlife, noise pollution, and urban soundscapes in real time.</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-img"><i class="fas fa-robot"></i></div>
+                    <h4>Smart security</h4>
+                    <p>Glass break, gunshot, aggression detection — immediate alerting.</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-img"><i class="fas fa-head-side-medical"></i></div>
+                    <h4>Healthcare acoustics</h4>
+                    <p>Respiratory pattern analysis, cough detection, remote patient monitoring.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Contact & waitlist -->
+    <section id="contact" class="contact">
+        <div class="container contact-card">
+            <div class="contact-info">
+                <i class="fas fa-envelope-open-text contact-icon-big"></i>
+                <h2>Ready to scale with sound?</h2>
+                <p>Join the waitlist for early access, SDK preview, and architectural consultation.</p>
+                <div class="contact-details">
+                    <span><i class="fas fa-map-marker-alt"></i> San Francisco · Berlin · Tokyo</span>
+                    <span><i class="fas fa-calendar-alt"></i> Demo within 24h</span>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <form id="waitlistForm" class="waitlist-form">
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="nameInput" placeholder="Full name" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="emailInput" placeholder="Work email" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-building"></i>
+                        <input type="text" id="companyInput" placeholder="Company / Organization">
+                    </div>
+                    <button type="submit" class="btn-primary full-width" id="submitBtn">
+                        Secure early access <i class="fas fa-lock"></i>
+                    </button>
+                    <p class="form-note">No spam, only launch updates & technical insights.</p>
+                    <div id="formFeedback" class="feedback-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <i class="fas fa-waveform"></i> EchoScale
+                <p>Acoustic intelligence, redefined for the next decade.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Security</a>
+                <a href="#">Status</a>
+            </div>
+            <div class="footer-social">
+                <i class="fab fa-github"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2026 EchoScale — Built with <i class="fas fa-heart"></i> for acoustic engineers & innovators</p>
+        </div>
+    </footer>
+
+    <!-- simple scroll + mobile menu + form handling (vanilla) -->
+    <script src="script.js"></script>
+</body>
+</html>
